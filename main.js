@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("everything working?")})();
+(()=>{"use strict";document.querySelector("#content"),document.querySelectorAll(".tab").forEach((e=>{console.log(e.dataset.tab)})),function(){let e=document.createElement("h1");e.textContent="Mamma Mia Pizzeria";let t=document.createElement("span");t.textContent="Tastes like heaven and is sometimes stated to be better than a relationship";let n=document.createElement("img");n.src="/src/banner.webp",content.append(e,t,n)}()})();
