@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-size: 62.5%;
+}
+
+main {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+#content {
+  font-size: 1.6em;
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab {
+  font-size: 1.2em;
+}
