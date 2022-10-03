@@ -1,6 +1,9 @@
 "use strict";
 
 export default function createHome() {
+  let createDiv = document.createElement("div");
+
+  createDiv.classList.add("container");
   let createH1 = document.createElement("h1");
   createH1.textContent = "Mamma Mia Pizzeria";
   let span = document.createElement("span");
@@ -8,5 +11,6 @@ export default function createHome() {
     "Tastes like heaven and is sometimes stated to be better than a relationship";
   let img = document.createElement("img");
   img.src = "/src/banner.webp";
-  content.append(createH1, span, img);
+  createDiv.append(createH1, span, img);
+  content.appendChild(createDiv);
 }
