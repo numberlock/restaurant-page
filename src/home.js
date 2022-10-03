@@ -2,7 +2,6 @@
 
 export default function createHome() {
   let createDiv = document.createElement("div");
-
   createDiv.classList.add("container");
   let createH1 = document.createElement("h1");
   createH1.textContent = "Mamma Mia Pizzeria";
