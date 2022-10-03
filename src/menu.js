@@ -1,4 +1,5 @@
 "use strict";
+import stockPizza from "./stock-pizza.webp";
 
 export default function createMenu(name, description, price) {
   let createDiv = document.createElement("div");
@@ -10,7 +11,7 @@ export default function createMenu(name, description, price) {
   let priceDiv = document.createElement("div");
   priceDiv.textContent = `${price}`;
   let imgDiv = document.createElement("img");
-  imgDiv.src = "/src/stock-pizza.webp";
+  imgDiv.src = stockPizza;
 
   createDiv.append(nameDiv, descDiv, priceDiv, imgDiv);
   content.appendChild(createDiv);

@@ -1,4 +1,5 @@
 "use strict";
+import Banner from "./banner.webp";
 
 export default function createHome() {
   let createDiv = document.createElement("div");
@@ -9,7 +10,7 @@ export default function createHome() {
   span.textContent =
     "Tastes like heaven and is sometimes stated to be better than a relationship";
   let img = document.createElement("img");
-  img.src = "/src/banner.webp";
+  img.src = Banner;
   createDiv.append(createH1, span, img);
   content.appendChild(createDiv);
 }
